@@ -1,0 +1,913 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2020-10-08T17:47:27.471+08:00
+  initializedAtString: 2020-10-08T17:40:39.794+08:00
+  log:
+  - commitID: 1aeefb7ddf0cd553ccf3f1a3d761228b4d7826dc
+    mergeA: 
+    mergeB: 
+    authorName: Bugjudger
+    authorEmail: 56737316+Bugjudger@users.noreply.github.com
+    commitEmail: 56737316+Bugjudger@users.noreply.github.com
+    commitName: Bugjudger
+    summary: animations
+    description: 
+    timeString: 2020-10-08T17:47:25.000+08:00
+    commitTimeString: 2020-10-08T17:47:25.000+08:00
+    changes:
+    - path: Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Button\ButtonDestroy.controller
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Animations\Button\ButtonDestroy.controller
+      projectPath: Assets\Animations\Button\ButtonDestroy.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Button\ButtonUpgrade.controller
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Animations\Button\ButtonUpgrade.controller
+      projectPath: Assets\Animations\Button\ButtonUpgrade.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Money\Money.controller
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Animations\Money\Money.controller
+      projectPath: Assets\Animations\Money\Money.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Money\filcker.anim
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Animations\Money\filcker.anim
+      projectPath: Assets\Animations\Money\filcker.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Assets\\Import Assets\\Fonts\\\u65B9\u6B63\u7C97\u5706\u7B80\u4F53.ttf"
+      fullPath: "C:\\Users\\Mr_Y\\Tower Defense\\Assets\\Import Assets\\Fonts\\\u65B9\u6B63\u7C97\u5706\u7B80\u4F53.ttf"
+      projectPath: "Assets\\Import Assets\\Fonts\\\u65B9\u6B63\u7C97\u5706\u7B80\u4F53.ttf"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Icons\LaserBeamerIcon.png
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Icons\LaserBeamerIcon.png
+      projectPath: Assets\Import Assets\Icons\LaserBeamerIcon.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Icons\MissileLauncherIcon.png
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Icons\MissileLauncherIcon.png
+      projectPath: Assets\Import Assets\Icons\MissileLauncherIcon.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Icons\StandardTurretIcon.psd
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Icons\StandardTurretIcon.psd
+      projectPath: Assets\Import Assets\Icons\StandardTurretIcon.psd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Standard Turret\Materials\Turret_Barrels.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Standard Turret\Materials\Turret_Barrels.mat
+      projectPath: Assets\Import Assets\Standard Turret\Materials\Turret_Barrels.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Standard Turret\Materials\Turret_GunMetal.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Standard Turret\Materials\Turret_GunMetal.mat
+      projectPath: Assets\Import Assets\Standard Turret\Materials\Turret_GunMetal.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Standard Turret\Materials\Turret_Main.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Standard Turret\Materials\Turret_Main.mat
+      projectPath: Assets\Import Assets\Standard Turret\Materials\Turret_Main.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Standard Turret\Materials\Turret_Metal.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Standard Turret\Materials\Turret_Metal.mat
+      projectPath: Assets\Import Assets\Standard Turret\Materials\Turret_Metal.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Standard Turret\Materials\Turret_Metal2.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Standard Turret\Materials\Turret_Metal2.mat
+      projectPath: Assets\Import Assets\Standard Turret\Materials\Turret_Metal2.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Standard Turret\Materials\Turret_Secondary.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Standard Turret\Materials\Turret_Secondary.mat
+      projectPath: Assets\Import Assets\Standard Turret\Materials\Turret_Secondary.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Standard Turret\Materials_Upgraded\New Material.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Standard Turret\Materials_Upgraded\New
+        Material.mat
+      projectPath: Assets\Import Assets\Standard Turret\Materials_Upgraded\New Material.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Standard Turret\Materials_Upgraded\Turret_Upgraded_Barrels.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Standard Turret\Materials_Upgraded\Turret_Upgraded_Barrels.mat
+      projectPath: Assets\Import Assets\Standard Turret\Materials_Upgraded\Turret_Upgraded_Barrels.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Standard Turret\Materials_Upgraded\Turret_Upgraded_Main.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Standard Turret\Materials_Upgraded\Turret_Upgraded_Main.mat
+      projectPath: Assets\Import Assets\Standard Turret\Materials_Upgraded\Turret_Upgraded_Main.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Standard Turret\Materials_Upgraded\Turret_Upgraded_Secondary.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Standard Turret\Materials_Upgraded\Turret_Upgraded_Secondary.mat
+      projectPath: Assets\Import Assets\Standard Turret\Materials_Upgraded\Turret_Upgraded_Secondary.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Standard Turret\Turret.fbx
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Standard Turret\Turret.fbx
+      projectPath: Assets\Import Assets\Standard Turret\Turret.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\BuildEffect.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Material\BuildEffect.mat
+      projectPath: Assets\Material\BuildEffect.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Bullet.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Material\Bullet.mat
+      projectPath: Assets\Material\Bullet.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\End.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Material\End.mat
+      projectPath: Assets\Material\End.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\ExplosionEffect.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Material\ExplosionEffect.mat
+      projectPath: Assets\Material\ExplosionEffect.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\MapCube.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Material\MapCube.mat
+      projectPath: Assets\Material\MapCube.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Plane.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Material\Plane.mat
+      projectPath: Assets\Material\Plane.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Road.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Material\Road.mat
+      projectPath: Assets\Material\Road.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Material\Start.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Material\Start.mat
+      projectPath: Assets\Material\Start.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bullet\Bullet.prefab
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Prefab\Bullet\Bullet.prefab
+      projectPath: Assets\Prefab\Bullet\Bullet.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bullet\Missile.prefab
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Prefab\Bullet\Missile.prefab
+      projectPath: Assets\Prefab\Bullet\Missile.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Effect\BuildEffect.prefab
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Prefab\Effect\BuildEffect.prefab
+      projectPath: Assets\Prefab\Effect\BuildEffect.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Effect\ExplosionEffect.prefab
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Prefab\Effect\ExplosionEffect.prefab
+      projectPath: Assets\Prefab\Effect\ExplosionEffect.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Enemy1\Enemy Material1.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Prefab\Enemy1\Enemy Material1.mat
+      projectPath: Assets\Prefab\Enemy1\Enemy Material1.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Enemy1\Enemy1Explosion.prefab
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Prefab\Enemy1\Enemy1Explosion.prefab
+      projectPath: Assets\Prefab\Enemy1\Enemy1Explosion.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Enemy1\enemy.prefab
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Prefab\Enemy1\enemy.prefab
+      projectPath: Assets\Prefab\Enemy1\enemy.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Enemy2\Enemy Material2.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Prefab\Enemy2\Enemy Material2.mat
+      projectPath: Assets\Prefab\Enemy2\Enemy Material2.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Enemy2\Enemy2Explosion.prefab
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Prefab\Enemy2\Enemy2Explosion.prefab
+      projectPath: Assets\Prefab\Enemy2\Enemy2Explosion.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Enemy2\enemy2.prefab
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Prefab\Enemy2\enemy2.prefab
+      projectPath: Assets\Prefab\Enemy2\enemy2.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Enemy3\Enemy Material3.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Prefab\Enemy3\Enemy Material3.mat
+      projectPath: Assets\Prefab\Enemy3\Enemy Material3.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Enemy3\Enemy3Explosion.prefab.prefab
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Prefab\Enemy3\Enemy3Explosion.prefab.prefab
+      projectPath: Assets\Prefab\Enemy3\Enemy3Explosion.prefab.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Enemy3\enemy3.prefab
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Prefab\Enemy3\enemy3.prefab
+      projectPath: Assets\Prefab\Enemy3\enemy3.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Enemy4\Enemy Material4.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Prefab\Enemy4\Enemy Material4.mat
+      projectPath: Assets\Prefab\Enemy4\Enemy Material4.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Enemy4\Enemy4Explosion.prefab.prefab
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Prefab\Enemy4\Enemy4Explosion.prefab.prefab
+      projectPath: Assets\Prefab\Enemy4\Enemy4Explosion.prefab.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Enemy4\enemy4.prefab
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Prefab\Enemy4\enemy4.prefab
+      projectPath: Assets\Prefab\Enemy4\enemy4.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\LaserTurret\Laser Beamer.prefab
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Prefab\LaserTurret\Laser Beamer.prefab
+      projectPath: Assets\Prefab\LaserTurret\Laser Beamer.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\LaserTurret\Laser BeamerPlus.prefab
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Prefab\LaserTurret\Laser BeamerPlus.prefab
+      projectPath: Assets\Prefab\LaserTurret\Laser BeamerPlus.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\MapCube.prefab
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Prefab\MapCube.prefab
+      projectPath: Assets\Prefab\MapCube.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\MissileTurret\Missile Launcher.prefab
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Prefab\MissileTurret\Missile Launcher.prefab
+      projectPath: Assets\Prefab\MissileTurret\Missile Launcher.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\MissileTurret\Missile LauncherPlus.prefab
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Prefab\MissileTurret\Missile LauncherPlus.prefab
+      projectPath: Assets\Prefab\MissileTurret\Missile LauncherPlus.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Road.prefab
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Prefab\Road.prefab
+      projectPath: Assets\Prefab\Road.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\StandardTurret\StandardTurret.prefab
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Prefab\StandardTurret\StandardTurret.prefab
+      projectPath: Assets\Prefab\StandardTurret\StandardTurret.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\StandardTurret\StandardTurretPlus.prefab
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Prefab\StandardTurret\StandardTurretPlus.prefab
+      projectPath: Assets\Prefab\StandardTurret\StandardTurretPlus.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\MainScene.unity
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Scenes\MainScene.unity
+      projectPath: Assets\Scenes\MainScene.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\BuildManager.cs
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Scripts\BuildManager.cs
+      projectPath: Assets\Scripts\BuildManager.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Bullet.cs
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Scripts\Bullet.cs
+      projectPath: Assets\Scripts\Bullet.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Enemy1.cs
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Scripts\Enemy1.cs
+      projectPath: Assets\Scripts\Enemy1.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Enemy_Spawner.cs
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Scripts\Enemy_Spawner.cs
+      projectPath: Assets\Scripts\Enemy_Spawner.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\MapCube.cs
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Scripts\MapCube.cs
+      projectPath: Assets\Scripts\MapCube.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Turret.cs
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Scripts\Turret.cs
+      projectPath: Assets\Scripts\Turret.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\TurretDate.cs
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Scripts\TurretDate.cs
+      projectPath: Assets\Scripts\TurretDate.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\ViewController.cs
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Scripts\ViewController.cs
+      projectPath: Assets\Scripts\ViewController.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Wave.cs
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Scripts\Wave.cs
+      projectPath: Assets\Scripts\Wave.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Waypoints.cs
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Scripts\Waypoints.cs
+      projectPath: Assets\Scripts\Waypoints.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: e241c8c5773ceb96092bcc7afb74f7f9471aa23c
+    mergeA: 
+    mergeB: 
+    authorName: Bugjudger
+    authorEmail: 56737316+Bugjudger@users.noreply.github.com
+    commitEmail: 56737316+Bugjudger@users.noreply.github.com
+    commitName: Bugjudger
+    summary: Revert "unity_towerDefense"
+    description: This reverts commit 780caba8a5ca895c1831fec483328c8106851a65.
+    timeString: 2020-10-08T17:44:43.000+08:00
+    commitTimeString: 2020-10-08T17:44:43.000+08:00
+    changes:
+    - path: .vscode\launch.json
+      fullPath: C:\Users\Mr_Y\Tower Defense\.vscode\launch.json
+      projectPath: .vscode\launch.json
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+  - commitID: e2476a309764e6df260c0e439514478eeca4c15b
+    mergeA: 
+    mergeB: 
+    authorName: Bugjudger
+    authorEmail: 56737316+Bugjudger@users.noreply.github.com
+    commitEmail: 56737316+Bugjudger@users.noreply.github.com
+    commitName: Bugjudger
+    summary: Revert "1"
+    description: This reverts commit 58f7ef4cdad842ae05c5a1985569d6137b03452a.
+    timeString: 2020-10-08T17:44:37.000+08:00
+    commitTimeString: 2020-10-08T17:44:37.000+08:00
+    changes:
+    - path: Assets\Import Assets\Laser Beamer\Laser Beamer.fbx
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Laser Beamer\Laser
+        Beamer.fbx
+      projectPath: Assets\Import Assets\Laser Beamer\Laser Beamer.fbx
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Laser Beamer\Materials\Base.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Laser Beamer\Materials\Base.mat
+      projectPath: Assets\Import Assets\Laser Beamer\Materials\Base.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Laser Beamer\Materials\Bolts.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Laser Beamer\Materials\Bolts.mat
+      projectPath: Assets\Import Assets\Laser Beamer\Materials\Bolts.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Laser Beamer\Materials\Main Turret.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Laser Beamer\Materials\Main
+        Turret.mat
+      projectPath: Assets\Import Assets\Laser Beamer\Materials\Main Turret.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Laser Beamer\Materials\Pipe.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Laser Beamer\Materials\Pipe.mat
+      projectPath: Assets\Import Assets\Laser Beamer\Materials\Pipe.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Laser Beamer\Materials\Stand.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Laser Beamer\Materials\Stand.mat
+      projectPath: Assets\Import Assets\Laser Beamer\Materials\Stand.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Laser Beamer\Materials\Turret Accent.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Laser Beamer\Materials\Turret
+        Accent.mat
+      projectPath: Assets\Import Assets\Laser Beamer\Materials\Turret Accent.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Laser Beamer\Materials_Upgraded\Base.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Laser Beamer\Materials_Upgraded\Base.mat
+      projectPath: Assets\Import Assets\Laser Beamer\Materials_Upgraded\Base.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Laser Beamer\Materials_Upgraded\Bolts.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Laser Beamer\Materials_Upgraded\Bolts.mat
+      projectPath: Assets\Import Assets\Laser Beamer\Materials_Upgraded\Bolts.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Laser Beamer\Materials_Upgraded\Main Turret.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Laser Beamer\Materials_Upgraded\Main
+        Turret.mat
+      projectPath: Assets\Import Assets\Laser Beamer\Materials_Upgraded\Main Turret.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Laser Beamer\Materials_Upgraded\Pipe.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Laser Beamer\Materials_Upgraded\Pipe.mat
+      projectPath: Assets\Import Assets\Laser Beamer\Materials_Upgraded\Pipe.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Laser Beamer\Materials_Upgraded\Turret Accent.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Laser Beamer\Materials_Upgraded\Turret
+        Accent.mat
+      projectPath: Assets\Import Assets\Laser Beamer\Materials_Upgraded\Turret Accent.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Missile Launcher\Materials\Missile.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Missile Launcher\Materials\Missile.mat
+      projectPath: Assets\Import Assets\Missile Launcher\Materials\Missile.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Missile Launcher\Materials\MissileLauncher_Primary.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Missile Launcher\Materials\MissileLauncher_Primary.mat
+      projectPath: Assets\Import Assets\Missile Launcher\Materials\MissileLauncher_Primary.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Missile Launcher\Materials\MissileLauncher_Secondary.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Missile Launcher\Materials\MissileLauncher_Secondary.mat
+      projectPath: Assets\Import Assets\Missile Launcher\Materials\MissileLauncher_Secondary.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Missile Launcher\MaterialsPuls\New Material 1.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Missile Launcher\MaterialsPuls\New
+        Material 1.mat
+      projectPath: Assets\Import Assets\Missile Launcher\MaterialsPuls\New Material
+        1.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Missile Launcher\MaterialsPuls\New Material 2.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Missile Launcher\MaterialsPuls\New
+        Material 2.mat
+      projectPath: Assets\Import Assets\Missile Launcher\MaterialsPuls\New Material
+        2.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Missile Launcher\MaterialsPuls\New Material.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Missile Launcher\MaterialsPuls\New
+        Material.mat
+      projectPath: Assets\Import Assets\Missile Launcher\MaterialsPuls\New Material.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Missile Launcher\Missile Launcher Texture.png
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Missile Launcher\Missile
+        Launcher Texture.png
+      projectPath: Assets\Import Assets\Missile Launcher\Missile Launcher Texture.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Missile Launcher\Missile Launcher.fbx
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Missile Launcher\Missile
+        Launcher.fbx
+      projectPath: Assets\Import Assets\Missile Launcher\Missile Launcher.fbx
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+  - commitID: 58f7ef4cdad842ae05c5a1985569d6137b03452a
+    mergeA: 
+    mergeB: 
+    authorName: Bugjudger
+    authorEmail: 56737316+Bugjudger@users.noreply.github.com
+    commitEmail: 56737316+Bugjudger@users.noreply.github.com
+    commitName: Bugjudger
+    summary: 1
+    description: 
+    timeString: 2020-10-08T17:43:54.000+08:00
+    commitTimeString: 2020-10-08T17:43:54.000+08:00
+    changes:
+    - path: Assets\Import Assets\Laser Beamer\Laser Beamer.fbx
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Laser Beamer\Laser
+        Beamer.fbx
+      projectPath: Assets\Import Assets\Laser Beamer\Laser Beamer.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Laser Beamer\Materials\Base.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Laser Beamer\Materials\Base.mat
+      projectPath: Assets\Import Assets\Laser Beamer\Materials\Base.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Laser Beamer\Materials\Bolts.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Laser Beamer\Materials\Bolts.mat
+      projectPath: Assets\Import Assets\Laser Beamer\Materials\Bolts.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Laser Beamer\Materials\Main Turret.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Laser Beamer\Materials\Main
+        Turret.mat
+      projectPath: Assets\Import Assets\Laser Beamer\Materials\Main Turret.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Laser Beamer\Materials\Pipe.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Laser Beamer\Materials\Pipe.mat
+      projectPath: Assets\Import Assets\Laser Beamer\Materials\Pipe.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Laser Beamer\Materials\Stand.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Laser Beamer\Materials\Stand.mat
+      projectPath: Assets\Import Assets\Laser Beamer\Materials\Stand.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Laser Beamer\Materials\Turret Accent.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Laser Beamer\Materials\Turret
+        Accent.mat
+      projectPath: Assets\Import Assets\Laser Beamer\Materials\Turret Accent.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Laser Beamer\Materials_Upgraded\Base.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Laser Beamer\Materials_Upgraded\Base.mat
+      projectPath: Assets\Import Assets\Laser Beamer\Materials_Upgraded\Base.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Laser Beamer\Materials_Upgraded\Bolts.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Laser Beamer\Materials_Upgraded\Bolts.mat
+      projectPath: Assets\Import Assets\Laser Beamer\Materials_Upgraded\Bolts.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Laser Beamer\Materials_Upgraded\Main Turret.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Laser Beamer\Materials_Upgraded\Main
+        Turret.mat
+      projectPath: Assets\Import Assets\Laser Beamer\Materials_Upgraded\Main Turret.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Laser Beamer\Materials_Upgraded\Pipe.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Laser Beamer\Materials_Upgraded\Pipe.mat
+      projectPath: Assets\Import Assets\Laser Beamer\Materials_Upgraded\Pipe.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Laser Beamer\Materials_Upgraded\Turret Accent.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Laser Beamer\Materials_Upgraded\Turret
+        Accent.mat
+      projectPath: Assets\Import Assets\Laser Beamer\Materials_Upgraded\Turret Accent.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Missile Launcher\Materials\Missile.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Missile Launcher\Materials\Missile.mat
+      projectPath: Assets\Import Assets\Missile Launcher\Materials\Missile.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Missile Launcher\Materials\MissileLauncher_Primary.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Missile Launcher\Materials\MissileLauncher_Primary.mat
+      projectPath: Assets\Import Assets\Missile Launcher\Materials\MissileLauncher_Primary.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Missile Launcher\Materials\MissileLauncher_Secondary.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Missile Launcher\Materials\MissileLauncher_Secondary.mat
+      projectPath: Assets\Import Assets\Missile Launcher\Materials\MissileLauncher_Secondary.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Missile Launcher\MaterialsPuls\New Material 1.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Missile Launcher\MaterialsPuls\New
+        Material 1.mat
+      projectPath: Assets\Import Assets\Missile Launcher\MaterialsPuls\New Material
+        1.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Missile Launcher\MaterialsPuls\New Material 2.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Missile Launcher\MaterialsPuls\New
+        Material 2.mat
+      projectPath: Assets\Import Assets\Missile Launcher\MaterialsPuls\New Material
+        2.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Missile Launcher\MaterialsPuls\New Material.mat
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Missile Launcher\MaterialsPuls\New
+        Material.mat
+      projectPath: Assets\Import Assets\Missile Launcher\MaterialsPuls\New Material.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Missile Launcher\Missile Launcher Texture.png
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Missile Launcher\Missile
+        Launcher Texture.png
+      projectPath: Assets\Import Assets\Missile Launcher\Missile Launcher Texture.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Import Assets\Missile Launcher\Missile Launcher.fbx
+      fullPath: C:\Users\Mr_Y\Tower Defense\Assets\Import Assets\Missile Launcher\Missile
+        Launcher.fbx
+      projectPath: Assets\Import Assets\Missile Launcher\Missile Launcher.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 780caba8a5ca895c1831fec483328c8106851a65
+    mergeA: 
+    mergeB: 
+    authorName: Bugjudger
+    authorEmail: 56737316+Bugjudger@users.noreply.github.com
+    commitEmail: 56737316+Bugjudger@users.noreply.github.com
+    commitName: Bugjudger
+    summary: unity_towerDefense
+    description: towerDefense
+    timeString: 2020-10-08T17:41:46.000+08:00
+    commitTimeString: 2020-10-08T17:41:46.000+08:00
+    changes:
+    - path: .vscode\launch.json
+      fullPath: C:\Users\Mr_Y\Tower Defense\.vscode\launch.json
+      projectPath: .vscode\launch.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 8ebfd76d6563d7c178c2a3696711f9204619a63c
+    mergeA: 
+    mergeB: 
+    authorName: Bugjudger
+    authorEmail: 56737316+Bugjudger@users.noreply.github.com
+    commitEmail: 56737316+Bugjudger@users.noreply.github.com
+    commitName: Bugjudger
+    summary: Add .gitignore and .gitattributes.
+    description: 
+    timeString: 2020-09-17T01:33:51.000+08:00
+    commitTimeString: 2020-09-17T01:33:51.000+08:00
+    changes:
+    - path: .gitattributes
+      fullPath: C:\Users\Mr_Y\Tower Defense\.gitattributes
+      projectPath: .gitattributes
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .gitignore
+      fullPath: C:\Users\Mr_Y\Tower Defense\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
